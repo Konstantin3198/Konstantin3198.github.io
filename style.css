@@ -50,7 +50,7 @@ p{
 
 .main-container{
     width:80%;
-    min-width:30rem;
+    min-width:32rem;
     height:43.75rem;
     margin:6.25rem 15% 6.25rem 5%;
     background-color:hsl(260, 50%, 70%);
@@ -200,7 +200,9 @@ button:hover{
       p{
         font-size:1rem;
       }
-      
+     .hid-menu{
+       left:28.6rem;
+     } 
 }
 
 @media only screen and (max-width:860px){
@@ -209,11 +211,6 @@ button:hover{
       }
 }
 
-@media only screen and (max-width:37rem){
-    .hid-menu{
-        right:-20rem;
-    }
-}
 
 /* footer section*/
 
