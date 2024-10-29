@@ -5,10 +5,14 @@
     --sectionHeight:330px;
 }
 
+#root{
+    height:fit-content;
+}
+
 #myCard{
     width:800px;
-    height:460px;
-    background-color: #ffffffb1;
+    height:480px;
+    background-color: #ffffffe3;
     border-radius:var(--mainRadius);
     position:absolute;
     top:100px;
@@ -25,6 +29,7 @@
 @media  screen and (max-width:1000px){
    #myCard{
     width:90%;
+    height:550px;
     left:calc(10%/2);
     top:10%;
    }
@@ -228,8 +233,13 @@
    top:-20px;
    text-align: center;
    background-color: transparent; 
-   color:#ffffff;
+   color:#fff;
    transition: all 600ms ease-out;   
+}
+
+#last{
+    color:#383838;
+    font-weight: 800;
 }
 
 .project:hover{

@@ -3,8 +3,9 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="../src/index.css" rel="stylesheet"/>
-        <link href="../src/IntroSection/MyCard/MyCard.css" rel="stylesheet"/>
+        <link href="./src/index.css" rel="stylesheet"/>
+        <link href="./src/IntroSection/MyCard/MyCard.css" rel="stylesheet"/>
+        <title>Konstantin3198</title>
     </head>
     <body id="root">
         <div id="myCard">
@@ -17,7 +18,7 @@
                        <li><a id="About" href="#">About Me</a></li>
                        <li><a id="Contact" href="#">Contact</a></li>
                     </ul>
-                   <button id="menuIconButton" hidden><img src='../src/IntroSection/Resources/menu-icon.svg'  width="100%" ></img></button> 
+                   <button id="menuIconButton" hidden><img src='./src/IntroSection/Resources/menu-icon.svg'  width="100%" ></img></button> 
                 </nav>  
             </div>
             <nav id="mobileMenu">
@@ -35,10 +36,10 @@
                    <p>Hello. I'm Konstantin Giannakis a dedicated<br/>front-end developer based in Greece!</p>
                    <section id="acounts">
                      <a href='#'>
-                        <object data="../src/IntroSection/Resources/github-icon.svg" width="30" height="30"></object>
+                        <object data="./src/IntroSection/Resources/github-icon.svg" width="30" height="30"></object>
                     </a>
                      <a href="#">
-                        <object data="../src//IntroSection/Resources/linkedIn-icon.svg" width="30" height="30"></object>
+                        <object data="./src//IntroSection/Resources/linkedIn-icon.svg" width="30" height="30"></object>
                     </a>
                    </section>
                 </div>
@@ -47,35 +48,37 @@
                 <div class="technologies">
                    <h3>Technologies |</h3>
                    <ul id="skills1">
-                      <li><object data="../src/IntroSection/Resources/html-icon.svg" width="40" height="40"></object></li>
-                      <li><object data="../src/IntroSection/Resources/css-icon.svg" width="40" height="40"></object></li>
-                      <li><object data="../src/IntroSection/Resources/tailwind-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/html-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/css-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/tailwind-icon.svg" width="40" height="40"></object></li>
                     </ul>
                     <ul id="skills2">
-                      <li><object data="../src/IntroSection/Resources/javascript-icon.svg" width="40" height="40"></object></li>
-                      <li><object data="../src/IntroSection/Resources/react-icon.svg" width="40" height="40"></object></li>
-                      <li><object data="../src/IntroSection/Resources/nextjs-icon.svg" width="40" height="40"></object></li>
-                      <li><object data="../src/IntroSection/Resources/typescript-icon.svg" width="40" height="40"></object></li>
-                      <li><object data="../src/IntroSection/Resources/sql-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/javascript-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/react-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/nextjs-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/typescript-icon.svg" width="40" height="40"></object></li>
+                      <li><object data="./src/IntroSection/Resources/sql-icon.svg" width="40" height="40"></object></li>
                     </ul>
                 </div>
             </section>
             <section id="projectsSection" hidden>
                 <div class="project">
                     <h3 class="title">Weather-Analytics</h3>
-                    <a href="https://weatheranalytics.netlify.app">
-                      <img src='../src/IntroSection/Projects-img/Screenshot 2024-10-02 232929.png' alt="weather-app"/>
+                    <a href="https://weatheranalytics.netlify.app" target="_blank">
+                      <img src='./src/IntroSection/Projects-img/Screenshot 2024-10-02 232929.png' alt="weather-app"/>
                     </a>
                 </div>
                 <div class="project">
                     <h3 class="title">Movies Reviewer</h3>
-                    <a href="https://movies1reviewer.netlify.app">
-                      <img src='../src/IntroSection/Projects-img/Screenshot 2024-10-02 233110.png' alt="movies reviewer"/>
+                    <a href="https://movies1reviewer.netlify.app" target="_blank">
+                      <img src='./src/IntroSection/Projects-img/Screenshot 2024-10-02 233110.png' alt="movies reviewer"/>
                     </a>
                 </div>
                 <div class="project">
-                    <h3 class="title">Weather Stats</h3>
-                    <a href="#"><img src="https://th.bing.com/th/id/OIP.pAcu7875Nl6e_M0tBXBzGQAAAA?rs=1&pid=ImgDetMain" alt="weather stats"/></a>
+                    <h3 class="title" id="last">Electro-Store</h3>
+                    <a href="https://electro-store-roan.vercel.app" target="_blank">
+                      <img src="./src/IntroSection/Projects-img/Screenshot_29-10-2024_171337_electro-store-roan.vercel.app.jpeg" alt="electro store"/>
+                    </a>
                 </div>
             </section>
             <section id="aboutSection" hidden>
@@ -91,26 +94,30 @@
             <section id="contactSection" hidden>
                <h2 id="contactTitle">You can contact me through</h2>
                <div class="contact">
-                <object data="../src/IntroSection/Resources/mail-icon.svg" class="contactIcon"></object>
+                <object data="./src/IntroSection/Resources/mail-icon.svg" class="contactIcon"></object>
                 <div class="contactInfo">
                   <h3>Email</h3>
-                  <p>konstantinos3198@gmail.com</p>
+                  <a href="mailto:konstantinos3198@gmail.com" target="_blank">
+                    konstantinos3198@gmail.com
+                  </a>
                 </div> 
                </div>
                <div class="contact">
-                <object data="../src/IntroSection/Resources/linkedIn-icon.svg" class="contactIcon"></object>
+                <object data="./src/IntroSection/Resources/linkedIn-icon.svg" class="contactIcon"></object>
                 <div class="contactInfo">
                    <h3>LinkedIn Url</h3>
-                   <p>www.linkedin.com/in/konstantin-giannakis-ab388628b</p>
+                   <a href="https://www.linkedin.com/in/konstantin-giannakis-ab388628b" target="_blank">
+                      www.linkedin.com/in/konstantin-giannakis-ab388628b
+                   </a>
                 </div>
                </div>
             </section>
         </div>
        <canvas id="canvas" width="100" height="100"></canvas>
-       <script src="../src/IntroSection/MyCard/MyCard.js"></script>
-       <script src="../src/SiteBackground/Particle.js"></script>
-       <script src="../src/SiteBackground/ParticlesGrid.js"></script>
-       <script src="../src/index.js"></script>
+       <script src="./src/IntroSection/MyCard/MyCard.js"></script>
+       <script src="./src/SiteBackground/Particle.js"></script>
+       <script src="./src/SiteBackground/ParticlesGrid.js"></script>
+       <script src="./src/index.js"></script>
     </body>
-  </html>
+</html>
   

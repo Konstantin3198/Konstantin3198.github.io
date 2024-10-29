@@ -6,14 +6,10 @@
 
 #root{
    width:100vw;
-   color:#292929;
+   color:#04003a;
    font-family:sans-serif;
    z-index:0;
    margin:0;
-}
-
-#canvas{
-    filter: blur(1px);
 }
 
 ul{list-style:none;}

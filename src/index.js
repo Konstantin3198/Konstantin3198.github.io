@@ -1,6 +1,10 @@
 const canvas=document.getElementById('canvas');
-canvas.style.backgroundColor='grey';
-canvas.setAttribute('width',window.innerWidth);
+canvas.style.backgroundColor='#4a4af5';
+if(window.innerWidth<=800){
+  canvas.setAttribute('width',window.innerWidth+100);
+}else{
+  canvas.setAttribute('width',window.innerWidth);
+}
 canvas.setAttribute('height',window.innerHeight);
 
 const conxt=canvas.getContext("2d");
@@ -11,9 +15,9 @@ const mouse={
   R:Math.ceil(canvas.width*canvas.height/6000)
 };
 
-window.addEventListener('resize',()=>{
-  canvas.setAttribute('width',window.innerWidth);
+window.addEventListener('resize',()=>{ 
   canvas.setAttribute('height',window.innerHeight);
+  canvas.setAttribute('width',window.innerWidth);
 });
 
 window.addEventListener('mousemove',(e)=>{

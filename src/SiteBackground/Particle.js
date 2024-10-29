@@ -56,7 +56,7 @@ class Particle{
     this.#draw();
   }
 
-  connectParticle(particles,color,width=1){
+  connectParticle(particles,color,width=0.3){
     const distLimit=Math.floor(window.innerWidth/10);
     for(let i=0;i<particles.length;++i){
       if(Math.sqrt(Math.pow(this.centerX-particles[i].centerX,2)+Math.pow(this.centerY-particles[i].centerY,2))<=distLimit){
