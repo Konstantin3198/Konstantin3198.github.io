@@ -1,5 +1,6 @@
 # Hey there! My name is Konstantin Giannakis 👋
-I'm **Front-End** Developer based in Komotini, Greece.
+
+🚀  I'm **Front-End** Developer based in Komotini, Greece.
 
 ## Skills  
 [![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev) 
