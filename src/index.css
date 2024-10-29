@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+#root{
+   width:100vw;
+   color:#292929;
+   font-family:sans-serif;
+   z-index:0;
+   margin:0;
+}
+
+#canvas{
+    filter: blur(1px);
+}
+
+ul{list-style:none;}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover,a:focus{color:#5d70fd;}
+
+@keyframes vibrate{
+    25%{
+        border-radius:60% 30% 30% 50% ;
+    }
+    50%{
+        border-radius:50%  60% 30% 70%;
+    }
+    100%{
+        border-radius: 60% 30% 70% 40%;
+    }
+}
