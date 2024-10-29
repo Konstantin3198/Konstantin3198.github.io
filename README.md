@@ -9,6 +9,6 @@ I'm **Front-End** Developer based in Komotini, Greece.
 <img width='50' height='50' src="/src/IntroSection/Resources/sql-icon.svg" alt="sql"/>
 
 ## Contanct
-<a herf="https://www.linkedin.com/in/konstantin-giannakis-ab388628b">
+<a href="https://www.linkedin.com/in/konstantin-giannakis-ab388628b">
   <img width="40" height="40" src="src/IntroSection/Resources/linkedIn-icon.svg" alt="LinkedIn"/>
 </a>
