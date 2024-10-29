@@ -12,4 +12,6 @@
 ## Contanct
 <a href="https://www.linkedin.com/in/konstantin-giannakis-ab388628b">
   <img width="40" height="40" src="src/IntroSection/Resources/linkedIn-icon.svg" alt="LinkedIn"/>
-</a>
+</a>   
+
+[konstantinos3198@gmail.com](mailto:konstantinos3198@gmail.com)
