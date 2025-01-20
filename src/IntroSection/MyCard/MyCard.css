@@ -138,9 +138,13 @@
    grid-row:1/2;
    grid-column:6/9; 
    border-radius: 60% 30% 70% 40%;
-   background-color: aqua;
+   background-image:url('../img/personal-picture.jpg') ;
+   background-position-y:70%;
+   background-size: cover;
+   background-repeat: no-repeat;
    margin-top: calc(2*var(--mainDistance));
    animation: vibrate ease-in-out 5000ms infinite ;
+   overflow: hidden;
 }
 
 .technologies{
