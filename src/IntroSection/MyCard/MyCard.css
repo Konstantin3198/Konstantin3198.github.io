@@ -138,8 +138,7 @@
    grid-row:1/2;
    grid-column:6/9; 
    border-radius: 60% 30% 70% 40%;
-   background-image:url('../img/personal-picture.jpg') ;
-   background-position-y:70%;
+   background-image:url('../img/mypic.jpg') ;
    background-size: cover;
    background-repeat: no-repeat;
    margin-top: calc(2*var(--mainDistance));
